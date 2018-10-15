@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storybooks Japan</title>
-    <description>Storybooks Japan is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Japanese and English, as well as the most widely spoken languages of Japan.
+    <description>「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 </description>
     <link>https://global-asp.github.io//storybooks-japan/</link>
     <atom:link href="https://global-asp.github.io//storybooks-japan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Oct 2018 15:50:19 -0700</pubDate>
-    <lastBuildDate>Wed, 10 Oct 2018 15:50:19 -0700</lastBuildDate>
+    <pubDate>Mon, 15 Oct 2018 04:02:33 -0700</pubDate>
+    <lastBuildDate>Mon, 15 Oct 2018 04:02:33 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
