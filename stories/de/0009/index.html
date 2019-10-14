@@ -64,7 +64,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-japan/stories/de" class="button">物語のリストに戻る</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-japan/stories/de">物語のリストに戻る</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0009/01.jpg"></div>
@@ -72,22 +72,22 @@
 		<h1><span class="def">Wo ist meine Katze?</span>
 			<span class="l1">猫ちゃんはどこですか。</span>
 			<span class="l2">Where is my cat?</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0009/mp3/01.mp3"></audio>
-				<button onclick="switchlang('独,日','日,英,独')" class="btn btn-lg lang-primary" title="日本語とドイツ語を切り替える">日</button>
-				<button style="display:none" onclick="switchlang('独,英','日,英,独')" class="btn btn-lg lang-secondary" title="英語とドイツ語を切り替える">英</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon" src="/storybooks-japan/css/pencil.svg" alt="作者" width="38px"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon" src="/storybooks-japan/css/art.svg" alt="絵" width="38px"></span> Bronwen Heath, Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon" src="/storybooks-japan/css/global.svg" alt="翻訳" width="38px"></span> Lisa Birkner</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon" src="/storybooks-japan/css/megaphone.svg" alt="朗読" width="38px"></span> Jula Eberth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon" src="/storybooks-japan/css/language.svg" alt="言語" width="38px"></span> <a href="/storybooks-japan/stories/de">ドイツ語</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon" src="/storybooks-japan/css/level.svg" alt="レベル" width="38px"></span> <a href="/storybooks-japan/stories/de/level1">レベル 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0009/de-0009_where.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0009/mp3/01.mp3"></audio>
+			<button onclick="switchlang('独,日','日,英,独')" class="btn btn-lg lang-primary" title="日本語とドイツ語を切り替える">日</button>
+			<button style="display:none" onclick="switchlang('独,英','日,英,独')" class="btn btn-lg lang-secondary" title="英語とドイツ語を切り替える">英</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon" src="/storybooks-japan/css/art.svg" alt="絵"></span> Bronwen Heath, Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Lisa Birkner</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/de">ドイツ語</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/de/level1">レベル 1</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0009/de-0009_where.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -326,7 +326,7 @@
 		<h5><a href="/storybooks-japan/stories/de/level1">レベル 1</a></h5>
 		<h5>出所：<a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=1825" target="_blank">Where is my cat?</a>」</h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />この作品は<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/">クリエイティブ・コモンズ　表示 - 非営利 3.0　ライセンス</a>の下に提供されています。</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />この作品は<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank">クリエイティブ・コモンズ　表示 - 非営利 3.0　ライセンス</a>の下に提供されています。</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
