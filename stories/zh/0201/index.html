@@ -16,13 +16,17 @@
 	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/zh/0201/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
 	<script src="/storybooks-japan/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -76,18 +80,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0201/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-japan/audio/zh/0201/mp3/01.mp3"></audio>
 			<button onclick="switchlang('中,日','日,英,中')" class="btn btn-lg lang-primary" title="日本語と中国語を切り替える">日</button>
 			<button style="display:none" onclick="switchlang('中,英','日,英,中')" class="btn btn-lg lang-secondary" title="英語と中国語を切り替える">英</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Lindiwe Matshikiza</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon" src="/storybooks-japan/css/art.svg" alt="絵"></span> Meghan Judge</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Vicky Liu</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Zhuo Sun</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/zh">中国語</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/zh/level3">レベル 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0201/zh-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Lindiwe Matshikiza</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Meghan Judge</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Vicky Liu</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Zhuo Sun</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/zh">中国語</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/zh/level3">レベル 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="/0201/zh-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -721,6 +725,8 @@ Slowly, all around them, other families have started to settle.
 	<a class="btn btn-lg" href="/storybooks-japan/stories/zh" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
 <br><br>
 </div>
+
+
 
     </div>
 

@@ -16,13 +16,17 @@
 	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/ko/0072/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
 	<script src="/storybooks-japan/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -76,18 +80,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ko/0072/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-japan/audio/ko/0072/mp3/01.mp3"></audio>
 			<button onclick="switchlang('韓,日','日,英,韓')" class="btn btn-lg lang-primary" title="日本語と韓国語を切り替える">日</button>
 			<button style="display:none" onclick="switchlang('韓,英','日,英,韓')" class="btn btn-lg lang-secondary" title="英語と韓国語を切り替える">英</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Zulu folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon" src="/storybooks-japan/css/art.svg" alt="絵"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Michelle Kim</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Scarlet Kim</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/ko">韓国語</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/ko/level4">レベル 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ko/0072/ko-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Zulu folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Michelle Kim</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Scarlet Kim</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/ko">韓国語</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/ko/level4">レベル 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="/0072/ko-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -95,7 +99,7 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0072/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	이 이야기는 네게데, 꿀잡이새, 그리고 진질레 라는 욕심많은 젊은 사람 이야기 입니다. 진질레는 사냥을 하러 밖에 나갔어요. 갑자기 그는 네게데의 소리를 들었어요. 진질레는 꿀 생각에 입에 침이 고였어요. 그는 그의 머리 위에 나뭇 가지에 새를 볼 때까지 멈추고 주의 깊게 들었어요. “치틱-치틱-치틱,”작은 새가 그 다음 나무에 가며 소리 냈어요. 그후로 그 새는 “치틱-치틱-치틱”하며 진질레가 따라오고 있는지 수시로 멈추며 확인했어요.
+	이 이야기는 네게데, 꿀잡이새, 그리고 진질레 라는 욕심많은 젊은 사람 이야기 입니다. 진질레는 사냥을 하러 밖에 나갔어요. 갑자기 그는 네게데의 소리를 들었어요. 진질레는 꿀 생각에 입에 침이 고였어요. 그는 그의 머리 위에 나뭇 가지에 새를 볼 때까지 멈추고 주의 깊게 들었어요. “치틱-치틱-치틱,” 작은 새가 그 다음 나무에 가며 소리 냈어요. 그후로 그 새는 “치틱-치틱-치틱”하며 진질레가 따라오고 있는지 수시로 멈추며 확인했어요.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -351,7 +355,7 @@ After leading Gingile along the edge of the forest, Ngede stopped to rest in a g
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0072/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	진질레는 보통의 윙윙 거리는 소리가 들리지 않은 이유를 궁금해 하며 나무를 올랐어요. “아마도 벌집은 나무 깊은 곳에 있구나”라고 스스로 생각했어요. 그는 또 다른 가지로 올라갔어요. 하지만 벌집 대신, 그는 표범의 얼굴을 쳐다보고 있었어요! 표범은 무례하게 그녀의 잠을 방해받아서 매우 화가 나 있는 상태였어요. 그녀는 그녀의 눈을 좁게 뜨고 그녀의 매우 크고 매우 날카로운 이빨을 드러내며 입을 열었어요.
+	진질레는 보통의 윙윙 거리는 소리가 들리지 않은 이유를 궁금해 하며 나무를 올랐어요. “아마도 벌집은 나무 깊은 곳에 있구나” 라고 스스로 생각했어요. 그는 또 다른 가지로 올라갔어요. 하지만 벌집 대신, 그는 표범의 얼굴을 쳐다보고 있었어요! 표범은 무례하게 그녀의 잠을 방해받아서 매우 화가 나 있는 상태였어요. 그녀는 그녀의 눈을 좁게 뜨고 그녀의 매우 크고 매우 날카로운 이빨을 드러내며 입을 열었어요.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -463,6 +467,8 @@ And Gingile learned his lesson.
 	<a class="btn btn-lg" href="/storybooks-japan/stories/ko" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
 <br><br>
 </div>
+
+
 
     </div>
 

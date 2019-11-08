@@ -16,13 +16,17 @@
 	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-japan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/fr/0201/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
 	<script src="/storybooks-japan/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -76,18 +80,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0201/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-japan/audio/fr/0201/mp3/01.mp3"></audio>
 			<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
 			<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Lindiwe Matshikiza</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon" src="/storybooks-japan/css/art.svg" alt="絵"></span> Meghan Judge</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/fr">フランス語</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0201/fr-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Lindiwe Matshikiza</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Meghan Judge</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="翻訳"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/global.svg" alt="翻訳"></span> Alexandra Danahy</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/fr">フランス語</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="/0201/fr-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -151,7 +155,7 @@
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Timide mais brave, la petite fille se rapprocha de la femme. «&nbsp;Nous devons la garder avec nous,&nbsp;» le peuple de la petite fille dit. «&nbsp;Nous la garderons en sécurité, ainsi que son enfant.&nbsp;»
+	Timide mais brave, la petite fille se rapprocha de la femme. «&nbsp;Nous devons la garder avec nous,&nbsp;» dit le peuple de la petite fille. «&nbsp;Nous la garderons en sécurité, ainsi que son enfant.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -247,7 +251,7 @@
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Tout le monde commença à se disputer. «&nbsp;Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons,&nbsp;» quelques-uns ont dit. «&nbsp;Mais ils vont nous porter malchance&nbsp;!&nbsp;» ont dit d’autres.
+	Tout le monde commença à se disputer. «&nbsp;Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons,&nbsp;» dirent quelques-uns. «&nbsp;Mais ils vont nous porter malchance&nbsp;!&nbsp;» dirent d’autres.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -279,7 +283,7 @@
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire avec cet enfant malcommode. Elle se demanda quoi faire avec elle-même.
+	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire de cet enfant embarrassant. Elle se demanda quoi faire d’elle-même.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -399,7 +403,7 @@ He became so angry that, one day, he kicked his mother to the ground.
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pouvait.
+	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -427,7 +431,7 @@ He became so angry that, one day, he kicked his mother to the ground.
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Quand il arrêta de courir, la nuit était tombée et Âne était perdu. «&nbsp;Hi han&nbsp;?&nbsp;» il chuchota à la noirceur. «&nbsp;Hi han&nbsp;?&nbsp;» la noirceur retourna en écho. Il était seul. Se lovant en petite boule, troublé, il s’endormit profondément.
+	Quand il s’arrêta de courir, la nuit était tombée et Âne était perdu. «&nbsp;Hi han&nbsp;?&nbsp;» il chuchota à la noirceur. «&nbsp;Hi han&nbsp;?&nbsp;» retourna la noirceur en écho. Il était seul. Se lovant en petite boule, il tomba dans un sommeil profond et agité..
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -489,7 +493,7 @@ Curling himself into a tight ball, he fell into a deep and troubled sleep.
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/15.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et il apprit, et le vieil homme aussi. Ils s’aidèrent tous les deux et ils rirent ensemble.
+	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et apprit, et le vieil homme aussi. Ils s’aidèrent l’un l’autre et ils rirent ensemble.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -579,7 +583,7 @@ And when he woke up…
 <div id="text18" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/18.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	… les nuages étaient disparus avec son ami le vieil homme.
+	… les nuages avaient disparus avec son ami le vieil homme.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -665,7 +669,7 @@ And then hugged each other very hard.
 <div id="text21" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/21.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	L’enfant-âne et sa mère ont grandis ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencés à s’installer.
+	L’enfant-âne et sa mère ont grandi ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencé à s’installer.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -697,7 +701,7 @@ Slowly, all around them, other families have started to settle.
 		<h5>作者：Lindiwe Matshikiza</h5>
 		<h5>絵：Meghan Judge</h5>
 		<h5>翻訳：Alexandra Danahy</h5>
-		<h5>朗読：Alexandra Danahy</h5>
+		<h5>朗読：Monique Bournot-Trites</h5>
 		<h5>言語：<a href="/storybooks-japan/stories/fr">フランス語</a></h5>
 		<h5><a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h5>
 		<h5>出所：<a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=15028" target="_blank">Donkey Child</a>」</h5>
@@ -712,7 +716,7 @@ Slowly, all around them, other families have started to settle.
 			<label class="chip"><a href="/storybooks-japan/stories/fr/0141/">La poule et le millepatte</a></label>
 			<label class="chip"><a href="/storybooks-japan/stories/fr/0315/">La chanson de Sakima</a></label>
 			<label class="chip"><a href="/storybooks-japan/stories/fr/0006/">Anansi et la sagesse</a></label>
-			<label class="chip"><a href="/storybooks-japan/stories/fr/0324/">Le jour que je quitta la maison pour la ville</a></label>
+			<label class="chip"><a href="/storybooks-japan/stories/fr/0324/">Le jour où je quittai la maison pour la ville</a></label>
 			<label class="chip"><a href="/storybooks-japan/stories/fr/0158/">Poule et Aigle</a></label>
 	</div>
 </div>
@@ -721,6 +725,8 @@ Slowly, all around them, other families have started to settle.
 	<a class="btn btn-lg" href="/storybooks-japan/stories/fr" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
 <br><br>
 </div>
+
+
 
     </div>
 
