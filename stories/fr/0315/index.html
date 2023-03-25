@@ -4,29 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-japan/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-japan/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-japan/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-japan/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
-	<title>La chanson de Sakima - Storybooks Japan</title>
-	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
+	<title>La chanson de Sakima - 日本の絵本</title>
+	<meta name="description" content="「日本の絵本」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
-	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/fr/0315/">
-	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
-	<script src="/storybooks-japan/js/sbc.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="日本の絵本" href="/storybooks-japan">
+	<script src="/storybooks-japan/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -50,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -75,14 +72,12 @@
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">La chanson de Sakima</span>
 			<span class="l1">サキマの歌</span>
-			<span class="l2">Sakima's song</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/01.mp3"></audio>
-			<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-			<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+			<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Peris Wachuka</h3>
@@ -90,13 +85,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Monique Bournot-Trites</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/fr">フランス語</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0315/fr-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0315/fr-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="読書速度"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/speedometer.svg" alt="読書速度" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="読書速度: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-japan/css/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 	Sakima vivait avec ses parents et sa petite sœur, qui avait quatre ans. Ils vivaient sur la terre d’un homme riche. Leur hutte à toit de chaume était située au bout d’un rang d’arbres.
@@ -105,23 +102,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマは両親と４歳の妹と住んでいました。彼らは資産家の男の人の土地に住んでいました。彼らの茅葺き屋根の家は木の並びの最後にありました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima lived with his parents and his four year old sister.
 
-They lived on a rich man’s land.
-
-Their grass-thatched hut was at the end of a row of trees.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -137,21 +127,16 @@ Their grass-thatched hut was at the end of a row of trees.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマが３歳の時、彼は病気にかかり、視力を失ってしまいました。サキマは才能あふれる少年でもありました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	When Sakima was three years old, he fell sick and lost his sight.
 
-Sakima was a talented boy.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -167,21 +152,16 @@ Sakima was a talented boy.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマは他の６歳の子供がしないようなことをたくさんしました。例えば、村で年長の顔ぶれに交じり、重要な問題について議論することができました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima did many things that other six year old boys did not do.
 
-For example, he could sit with older members of the village and discuss important matters.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -197,23 +177,16 @@ For example, he could sit with older members of the village and discuss importan
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマの両親は裕福な男性の家で働いていました。彼らは朝早くに家を出て、夕方遅くに帰ってきました。サキマはその間、幼い妹と家に残されていました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The parents of Sakima worked at the rich man’s house.
 
-They left home early in the morning and returned late in the evening.
-
-Sakima was left with his little sister.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -229,21 +202,16 @@ Sakima was left with his little sister.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマは歌うことが大好きでした。ある日、母親が彼に「どこでこういう歌を学んだの？サキマ？」と聞きました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima loved to sing songs.
 
-One day his mother asked him, “Where do you learn these songs from, Sakima?”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -259,19 +227,16 @@ One day his mother asked him, “Where do you learn these songs from, Sakima?”
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマは「僕は歌をただ知っているだけだよ、お母さん。僕は頭の中で歌が聞こえて、それで歌っているんだ。」と答えました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima answered, “They just come, mother. I hear them in my head and then I sing.”
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -287,23 +252,16 @@ One day his mother asked him, “Where do you learn these songs from, Sakima?”
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	サキマは妹に歌ってあげることが好きで、特に彼女がお腹を空かせているときに歌ってあげていました。妹は彼のお気に入りの歌を歌っているのをよく聞いていました。彼女はよく心地のいい音楽に合わせて体を揺らしたものでした。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima liked to sing for his little sister, especially, if she felt hungry.
 
-His sister would listen to him singing his favourite song.
-
-She would sway to the soothing tune.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -319,21 +277,16 @@ She would sway to the soothing tune.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	「何度も歌を歌ってくれる？サキマ。」と妹は彼に何度も頼みました。サキマはそれを快く受け入れて何度も何度も歌ってあげました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	“Can you sing it again and again, Sakima,” his sister would beg him.
 
-Sakima would accept and sing it over and over again.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -349,21 +302,16 @@ Sakima would accept and sing it over and over again.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ある夕方、両親が家に戻ってくると、とても深刻そうにしていました。サキマは何か悪いことが起きたのだと分かりました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	One evening when his parents returned home, they were very quiet.
 
-Sakima knew that there was something wrong.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -379,23 +327,16 @@ Sakima knew that there was something wrong.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	「何があったの、お母さん、お父さん？」とサキマは聞きました。サキマはお金持ちの男の人の息子が行方不明になっていることを知りました。その男の人はとても悲しみ、孤独を感じていました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	“What is wrong, mother, father?” Sakima asked.
 
-Sakima learned that the rich man’s son was missing.
-
-The man was very sad and lonely.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -411,23 +352,16 @@ The man was very sad and lonely.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	「僕が彼のために歌うよ。彼は再び幸せになるかもしれない。」とサキマは両親に言いました。しかし両親は彼の意見を聞き入れませんでした。「彼はとても裕福だ。お前はただの目の見えない男の子だ。お前の歌が彼を救うと思うのか？」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	“I can sing for him. He might be happy again,” Sakima told his parents.
 
-But his parents dismissed him.
-
-“He is very rich. You are only a blind boy. Do you think your song will help him?”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -443,23 +377,16 @@ But his parents dismissed him.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	しかしながら、サキマは諦めませんでした。妹も彼を支持しました。彼女は「私がお腹を空かせているとき、サキマの歌が心地よくさせてくれるんだ。歌は裕福な男の人も心地よくさせるだろうな。」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	However, Sakima did not give up.
 
-His little sister supported him.
-
-She said, “Sakima’s songs soothe me when I am hungry. They will soothe the rich man too.”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -475,19 +402,16 @@ She said, “Sakima’s songs soothe me when I am hungry. They will soothe the r
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	次の日、サキマは小さな妹にお金持ちの男の人の家までの案内を頼みました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The following day, Sakima asked his little sister to lead him to the rich man’s house.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/14.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -503,21 +427,16 @@ She said, “Sakima’s songs soothe me when I am hungry. They will soothe the r
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	彼は窓の下に立って、お気に入りの歌を歌い始めました。ゆっくりと、お金持ちの男の人の頭が窓から見え始めました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	He stood below one big window and began to sing his favourite song.
 
-Slowly, the head of the rich man began to show through the big window.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/15.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -531,23 +450,18 @@ Slowly, the head of the rich man began to show through the big window.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	労働者はやっていることをやめました。彼らはサキマの美しい歌を聞きました。しかしある男の人が言いました、「誰もボスを元気づけられないままだ。この目の不自由な男の子は慰められると思っているのか？」
+	労働者はやっていることをやめました。彼らはサキマの美しい歌を聞きました。しかしある男の人が言いました、「誰もボスを元気づけられないままだ。この目の不自由な男の子は慰められると思っているか？」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The workers stopped what they were doing. They listened to Sakima’s beautiful song.
 
-But one man said, “Nobody has been able to console the boss. Does this blind boy think he will console him?”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/16.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -557,27 +471,22 @@ But one man said, “Nobody has been able to console the boss. Does this blind b
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/17.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Sakima termina de chanter sa chanson et s’apprêtait à partir. Mais l’homme riche sorti en vitesse et dit, «&nbsp;S’il te plaît, chante encore.&nbsp;»
+	Sakima termina de chanter sa chanson et s’apprêtait à partir. Mais l’homme riche sortit en vitesse et dit, «&nbsp;S’il te plaît, chante encore.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	サキマが歌い終わるその場を離れようと踵を返しました。しかし資産家の男の人が慌てでできて、言いました、「もう一度歌ってくれ。」
+	サキマが歌い終わるその場を離れようと踵を返しました。しかし資産家の男の人が慌ててできて、言いました、「もう一度歌ってくれ。」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima finished singing his song and turned to leave.
 
-But the rich man rushed out and said, “Please sing again.”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/17.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -593,21 +502,16 @@ But the rich man rushed out and said, “Please sing again.”
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	まさにその時、二人の男の人たちが担架に誰かをのせてきました。彼らは、殴られ、道のそばに置き去りにされていたお金持ちの男の人の息子を見つけたのでした。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	At that very moment, two men came carrying someone on a stretcher.
 
-They had found the rich man’s son beaten up and left on the side of the road.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/18.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -623,40 +527,34 @@ They had found the rich man’s son beaten up and left on the side of the road.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	その人は再び息子を見られてとても喜びました。彼は元気づけてくれたサキマを褒めました。彼は息子とサキマを病院に連れていき、サキマは再び目が見えるようになりました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The rich man was so happy to see his son again.
 
-He rewarded Sakima for consoling him.
-
-He took his son and Sakima to hospital so Sakima could regain his sight.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="物語と作者に関する情報"><i class="icon-arrow-down"></i></a>
 		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/fr/0315/mp3/19.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>作者：Ursula Nafula</h5>
-		<h5>絵：Peris Wachuka</h5>
-		<h5>翻訳：Alexandra Danahy</h5>
-		<h5>朗読：Monique Bournot-Trites</h5>
-		<h5>言語：<a href="/storybooks-japan/stories/fr">フランス語</a></h5>
-		<h5><a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h5>
-		<h5>出所：<a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a>」</h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この作品は<a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">クリエイティブ・コモンズ　表示 4.0　ライセンス</a>の下に提供されています。</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">作者:</span> Ursula Nafula</h5>
+		<h5><span class="colophon-heading">絵:</span> Peris Wachuka</h5>
+		<h5><span class="colophon-heading">翻訳:</span> Alexandra Danahy</h5>
+		<h5><span class="colophon-heading">朗読:</span> Monique Bournot-Trites</h5>
+		<h5><span class="colophon-heading">言語:</span> <a href="/storybooks-japan/stories/fr">フランス語</a></h5>
+		<h5><span class="colophon-heading">レベル:</span> <a href="/storybooks-japan/stories/fr/level3">レベル 3</a></h5>
+		<h5><span class="colophon-heading">出所:</span> <a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a>」</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この作品はクリエイティブ・コモンズ　<a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">クリエイティブ・コモンズ 表示 4.0 非移植</a>　ライセンスの下に提供されています。</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -672,10 +570,9 @@ He took his son and Sakima to hospital so Sakima could regain his sight.
 </div>
 <div>
 <h5>オプション</h5>
-	<a class="btn btn-lg" href="/storybooks-japan/stories/fr" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
+	<a class="btn btn-lg" href="/storybooks-japan/stories/fr" class="button">物語のリストに戻る</a> <span class="tooltip tooltip-top" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span>
 <br><br>
 </div>
-
 
 
     </div>

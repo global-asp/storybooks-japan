@@ -4,29 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-japan/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-japan/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-japan/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-japan/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
-	<title>Le livre de la météo - Storybooks Japan</title>
-	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
+	<title>Le livre de la météo - 日本の絵本</title>
+	<meta name="description" content="「日本の絵本」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
-	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/fr/0231/">
-	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
-	<script src="/storybooks-japan/js/sbc.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="日本の絵本" href="/storybooks-japan">
+	<script src="/storybooks-japan/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -50,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -75,14 +72,12 @@
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Le livre de la météo</span>
 			<span class="l1">お天気の本</span>
-			<span class="l2">Weather book</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/01.mp3"></audio>
-			<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-			<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+			<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Sandra McDougall, Ingrid Schechter</h3>
@@ -90,13 +85,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Monique Bournot-Trites</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/fr">フランス語</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/fr/level1">レベル 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0231/fr-0231_weather.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0231/fr-0231_weather.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="読書速度"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/speedometer.svg" alt="読書速度" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="読書速度: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-japan/css/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0231/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
 	Il fait sec.
@@ -105,19 +102,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	乾燥しているよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	It is dry.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -133,19 +127,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	お日さまが暖かい
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	The sun is hot.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -161,19 +152,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	風が吹いてるよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	It is windy.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -189,19 +177,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	雲っているよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	It is cloudy.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -217,19 +202,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	寒いよう
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	It is cold.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -245,19 +227,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	雨が降っているよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	It is raining.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -273,19 +252,16 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	雷が鳴ってるよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	There is thunder.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -301,36 +277,34 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
 	虹が見えるよ
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l2"><h3>
-	I see a rainbow.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="物語と作者に関する情報"><i class="icon-arrow-down"></i></a>
 		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/fr/0231/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('仏,日','日,英,仏')" class="btn btn-lg lang-primary" title="日本語とフランス語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('仏,英','日,英,仏')" class="btn btn-lg lang-secondary" title="英語とフランス語を切り替える">英</button>
+		<button onclick="switchlang('仏,日','日,仏')" class="btn btn-lg lang-primary" title="フランス語と日本語を切り替える">日</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>作者：Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h5>
-		<h5>絵：Sandra McDougall, Ingrid Schechter</h5>
-		<h5>翻訳：Hélène</h5>
-		<h5>朗読：Monique Bournot-Trites</h5>
-		<h5>言語：<a href="/storybooks-japan/stories/fr">フランス語</a></h5>
-		<h5><a href="/storybooks-japan/stories/fr/level1">レベル 1</a></h5>
-		<h5>出所：<a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=1861" target="_blank">Weather book</a>」</h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />この作品は<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank">クリエイティブ・コモンズ　表示 - 非営利 3.0　ライセンス</a>の下に提供されています。</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">作者:</span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h5>
+		<h5><span class="colophon-heading">絵:</span> Sandra McDougall, Ingrid Schechter</h5>
+		<h5><span class="colophon-heading">翻訳:</span> Hélène</h5>
+		<h5><span class="colophon-heading">朗読:</span> Monique Bournot-Trites</h5>
+		<h5><span class="colophon-heading">言語:</span> <a href="/storybooks-japan/stories/fr">フランス語</a></h5>
+		<h5><span class="colophon-heading">レベル:</span> <a href="/storybooks-japan/stories/fr/level1">レベル 1</a></h5>
+		<h5><span class="colophon-heading">出所:</span> <a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=1861" target="_blank">Weather book</a>」</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />この作品はクリエイティブ・コモンズ　<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja" target="_blank">クリエイティブ・コモンズ 表示-非営利 3.0 非移植</a>　ライセンスの下に提供されています。</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -353,10 +327,9 @@
 </div>
 <div>
 <h5>オプション</h5>
-	<a class="btn btn-lg" href="/storybooks-japan/stories/fr" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
+	<a class="btn btn-lg" href="/storybooks-japan/stories/fr" class="button">物語のリストに戻る</a> <span class="tooltip tooltip-top" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span>
 <br><br>
 </div>
-
 
 
     </div>

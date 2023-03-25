@@ -4,28 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-japan/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-japan/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-japan/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-japan/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-japan/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-japan/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-japan/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-japan/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
-	<title>صغير الحمار - Storybooks Japan</title>
-	<meta name="description" content="「Storybooks Japan」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
+	<title>صغير الحمار - 日本の絵本</title>
+	<meta name="description" content="「日本の絵本」は、識字や言語学習を家や学校、地域で学べるように作られた、誰でも見ることのできる無料の教育リソースです。40ものアフリカの絵本が日本語と英語、更に他の主要言語で、読んで、聞いてお使いいただけます。
 ">
 	<link rel="stylesheet" href="/storybooks-japan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/gsn-ar.min.css">
 	<link rel="stylesheet" href="/storybooks-japan/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-japan/stories/ar/0201/">
-	<link rel="alternate" type="application/rss+xml" title="Storybooks Japan" href="/storybooks-japan">
-	<script src="/storybooks-japan/js/sbc.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="日本の絵本" href="/storybooks-japan">
+	<script src="/storybooks-japan/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -72,16 +70,14 @@
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h1 dir="rtl" dir="rtl"><span class="def">صغير الحمار</span>
+		<h1 dir="rtl"><span class="def">صغير الحمار</span>
 			<span dir="ltr" class="l1">ロバの子</span>
-			<span dir="ltr" class="l2">Donkey Child</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/01.mp3"></audio>
-			<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-			<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+			<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="作者"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/pencil.svg" alt="作者"></span> Lindiwe Matshikiza</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="絵"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/art.svg" alt="絵"></span> Meghan Judge</h3>
@@ -89,34 +85,33 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/megaphone.svg" alt="朗読"></span> Mashael Muhanna</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="言語"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/language.svg" alt="言語"></span> <a href="/storybooks-japan/stories/ar">アラビア語</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="レベル"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/level.svg" alt="レベル"></span> <a href="/storybooks-japan/stories/ar/level3">レベル 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語全体の朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ar/0201/ar-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="朗読"><img class="cover-icon cover-icon-audio" src="/storybooks-japan/css/speaker.svg" alt="物語全体の朗読"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ar/0201/ar-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="読書速度"><img class="cover-icon cover-icon-text" src="/storybooks-japan/css/speedometer.svg" alt="読書速度" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="読書速度: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="物語の自動再生（beta）"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-japan/css/play.svg" alt="物語の自動再生" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	كانت الفتاة الصغيرة هي أول من رأى الشبح الغامض قادماً من بعيد.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ある日のことです。小さい女の子が遠くのほうに不思議な形をしたものをみつけました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	It was a little girl who first saw the mysterious shape in the distance.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -125,26 +120,23 @@
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وباقتراب الشكل الغامض منها، تبينت الفتاة بأنه شبح امرأة حامل.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	その形が近づいてきたとき、女の子は大きなお腹をした妊婦さんだと気が付きました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	As the shape moved closer, she saw that it was a heavily pregnant woman.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -153,28 +145,23 @@
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	تقدمت الفتاة نحو المرأة واقتربت منها، ببعض الخجل لكن بكل شجاعة. قال أهل الفتاة:” علينا أن نحتفظ بهذه المرأة بيننا. سوف نقوم بحمايتها هي وصغيرها”.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	その女の子は恥ずかしがりやでしたが、勇気を出して妊婦さんに近づきました。女の子や女の子の家族たちは、その妊婦さんをしっかり守ることに決めました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Shy but brave, the little girl moved nearer to the woman.
 
-“We must keep her with us,” the little girl’s people decided. “We’ll keep her and her child safe.”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -183,34 +170,23 @@
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	 وبعد مدة وجيزة حان موعد ولادة الصغير. قالت نساء القرية: “هيا ادفعي … هات الغطاء … هات الماء … ادفعيييييييي …”.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	赤ちゃんは今にも生まれそうです。みんなが彼女を助けました。「押すんだ！」「毛布をもってきて！」「水をちょうだい！」「押してーーー！！！」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The child was soon on its way.
 
-“Push!”
-
-“Bring blankets!”
-
-“Water!”
-
-“Puuuuussssshhh!!!”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -219,28 +195,23 @@
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	لكن، وعندما رأت النسوة المولود قفزن إلى الوراء من هول الصدمة “حمار!”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	しかし、赤ちゃんが出てきたとき、彼らは驚き飛び跳ねました。「ロバ？！」
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	But when they saw the baby, everyone jumped back in shock.
 
-“A donkey?!”
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -249,30 +220,23 @@
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	بدأت النسوة يتجادلن حول المولود الجديد. البعض قلن بأنهن سوف يحتفظن بالمولود وأمه لأنهن وعدنها بذلك، بينما تخوف البعض الأخر من أنهما قد يكونا نذير شؤم على القرية.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	みんなは「私たちは彼女のことも赤ちゃんも守ろうと決めて手助けをしたけど、彼らは私たちに悪い運をもってくるに違いない」と言い始めました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Everyone began to argue.
 
-“We said we would keep mother and child safe, and that’s what we’ll do,” said some.
-
-“But they will bring us bad luck!” said others.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -281,30 +245,23 @@
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وهكذا وجدت المرأة نفسها وحيدة من جديد، تسأل نفسها في حيرة عما يمكن أن تفعله بهذا الطفل الأخرق وبنفسها.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	彼女はまた一人ぼっちになってしまいました。彼女はこのかわいそうな赤ちゃんをどうやって育てればいいか、自分はどうするべきか、わかりませんでした。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	And so the woman found herself alone again.
 
-She wondered what to do with this awkward child.
-
-She wondered what to do with herself.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -313,26 +270,23 @@ She wondered what to do with herself.
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وانتهى بها التفكير إلى قبول الأمر، فهذا الحمار ابنها وهي الآن أمه.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	しかし、彼女は、ロバが自分の子どもであり、自分はロバの母親であることを受け入れなければなりませんでした。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	But finally she had to accept that he was her child and she was his mother.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -341,28 +295,23 @@ She wondered what to do with herself.
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	ولو أن الجحش حافظ على حجمه الصغير لاختلف الأمر. لكن الجحش بدأ يكبر ويكبر حتى لم يعد بإمكان الأم حمله على ظهرها. وكان غير قادر على أن يسلك سلوك الآدميين مهما فعل ومهما حاول ذلك. أحست الأم بالتعب والإحباط، وكانت تكلفه أحيانا بأعمال يقوم بها الحيوانات.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	その子どもが小さいサイズのままであれば、すべては違っていたでしょう。しかし、そのうちにその子どもは彼女がおんぶできないくらい大きくなってしまったのです。そしてその子はどんなにがんばっても人間と同じ行動ができるようにはなりませんでした。母親は疲れ、イライラして、自分の子どもを動物に接するように扱いました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Now, if the child had stayed that same, small size, everything might have been different. But the donkey child grew and grew until he could no longer fit on his mother’s back.
 
-And no matter how hard he tried, he could not behave like a human being. His mother was often tired and frustrated. Sometimes she made him do work meant for animals.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -371,28 +320,23 @@ And no matter how hard he tried, he could not behave like a human being. His mot
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	نما بداخل الحمار شعور بالغضب والارتباك. إذ هو لا يعرف ما يفعله ولا من يكون ولا كيف يكون. وفي يوم من الأيام، بلغ الغضب بالحمار منتهاه لدرجة انه ركل أمَّه وأوقعها أرضا.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	その怒りやストレスはロバの中にどんどんたまっていきました。ロバは人間と同じことはできないし、人間のようにはなれない。たまりにたまった怒りから、ついにロバはお母さんを蹴ってしまいました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Confusion and anger built up inside Donkey. He couldn’t do this and he couldn’t do that. He couldn’t be like this and he couldn’t be like that.
 
-He became so angry that, one day, he kicked his mother to the ground.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -401,26 +345,23 @@ He became so angry that, one day, he kicked his mother to the ground.
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	شعر الحمار بعدها بالخجل الشديد لما بدر منه في حق أمه وانبرى هارباً بعيداً.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバは自分のしたことに対し恥ずかしい気持ちでいっぱいになり、精一杯の速さでその場から走り去ってしまいました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey was filled with shame. He started to run away as far and fast as he could.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -429,32 +370,23 @@ He became so angry that, one day, he kicked his mother to the ground.
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	ولما توقف عن الجري، كان الظلام قد أرخى سدوله على المكان فإذا بالحمار يضيع طريقه وإذا به يهمس للظلام: “هييه … هاو؟” ويردد رجع الصدى: “هييه … هاو؟”. وجد الحمار نفسه وحيدا فتكوم على نفسه وخلد إلى نوم عميق مضطرب.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	気がつくとあたりはすっかり夜になり、ロバは道に迷ってしまいました。「ヒヒーン……」彼は暗闇のなかささやきました。「ヒヒーン……」それは後ろにこだましただけでした。彼はひとりぼっちでまるくなり、深い、悲しいねむりにつきました。
+	気がつくとあたりはすっかり夜になり、ロバは道に迷ってしまいました。「ヒヒーン…」彼は暗闇のなかささやきました。「ヒヒーン…」それは後ろにこだましただけでした。彼はひとりぼっちでまるくなり、深い、悲しいねむりにつきました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	By the time he stopped running, it was night, and Donkey was lost.
 
-“Hee haw?” he whispered to the darkness.
-
-“Hee Haw?” it echoed back. He was alone.
-
-Curling himself into a tight ball, he fell into a deep and troubled sleep.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -463,26 +395,23 @@ Curling himself into a tight ball, he fell into a deep and troubled sleep.
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وعندما استفاق من نومه، وجد شيخاً غريباً واقفاً عند رأسه محدقاً فيه. نظر الحمار في عيني الشيخ وبدأ يشعر ببصيص من الأمل.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバが起きたとき、そこには知らないおじいさんがロバをじっと見つめて立っていました。すると、おじいさんの瞳の中に小さな希望の光をみつけたのです。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey woke up to find a strange old man staring down at him. He looked into the old man’s eyes and started to feel a twinkle of hope.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/14.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -491,28 +420,23 @@ Curling himself into a tight ball, he fell into a deep and troubled sleep.
 
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/15.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	انتقل الحمار للعيش مع الشيخ، فعلمه أساليب عديدة للعيش. استمع الاثنان إلى بعضهما وتعلما الكثير من بعضهما وتعاونا وضحكا كثيرا معا.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	おじいさんはロバに生き抜くためのたくさんの方法を教えてくれました。彼はその教えをよく聞き、学びました。彼らはお互いに助け合い、笑いあって時を過ごしたのです。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey went to stay with the old man, who taught him many different ways to survive.
 
-Donkey listened and learned, and so did the old man. They helped each other, and they laughed together.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/15.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -521,26 +445,23 @@ Donkey listened and learned, and so did the old man. They helped each other, and
 
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/16.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وفي صباح أحد الأيام، طلب الشيخ من الحمار أن يحمله إلى قمة الجبل.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ある朝、おじいさんはロバにのり、山のてっぺんにつれていくようお願いをしました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	One morning, the old man asked Donkey to carry him to the top of a mountain.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/16.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -549,30 +470,23 @@ Donkey listened and learned, and so did the old man. They helped each other, and
 
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/17.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وهناك بين السحب، خلد الاثنان إلى النوم. حلم الحمار بأن أمه مريضة وبأنها تناديه. وعندما استفاق من نومه،
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	彼らは雲の上で眠りに落ち、ロバはお母さんが病気になり、自分のことを呼んでいる夢をみました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	High up amongst the clouds they fell asleep.
 
-Donkey dreamed that his mother was sick and calling to him.
-
-And when he woke up…
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/17.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -581,26 +495,23 @@ And when he woke up…
 
 <div id="text18" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/18.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	وجد الغيوم قد اختفت، وكذا صديقه الشيخ.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバが起きたときには、雲も、親愛なるおじいさんも消えてなくなっていました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	… the clouds had disappeared along with his friend, the old man.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/18.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -609,26 +520,23 @@ And when he woke up…
 
 <div id="text19" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/19.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	عندها، عرف الحمار ما يجب عليه فعله.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバはついに自分がどうするべきかがわかりました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey finally knew what to do.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text20" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/19.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -637,28 +545,23 @@ And when he woke up…
 
 <div id="text20" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/20.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	ولدى رجوعه إلى البيت وجد أمه وحيدة ترثي ابنها المفقود. حدق الاثنان في بعضهما لفترة طويلة ثم عانق كل منهما الآخر عناقا حارا.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバは、息子を失って悲しみにくれていたお母さんを見つけることができました。彼らはお互いに長く見つめあい、そして強く強く喜び、抱きしめあいました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey found his mother, alone and mourning her lost child. They stared at each other for a long time.
 
-And then hugged each other very hard.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text19" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#text21" class="btn btn-lg" title="次のページ"><i class="icon-arrow-down"></i></a>
 		<audio id="audio20" onended="resetbutton('20')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/20.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton20" onclick="playpause('20')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton20" onclick="playpause('20')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
@@ -667,45 +570,41 @@ And then hugged each other very hard.
 
 <div id="text21" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/21.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
 	كبر الحمار وأمه معاً ووجدا لنفسيهما سبلاً عديدة للتعايش في سلام جنباً إلى جنب. وشيئاً فشيئاً، بدأت عائلات أخرى تستقر حول الحمار وأمه.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	ロバと彼のお母さんは一緒に成長し、暮らしていく方法をたくさん見つけていきました。ゆっくりではあるけれど、周りの家族も徐々に彼らのことを受け入れていきました。
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The donkey child and his mother have grown together and found many ways of living side by side.
 
-Slowly, all around them, other families have started to settle.
-	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text20" class="btn btn-lg" title="前のページ"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="物語と作者に関する情報"><i class="icon-arrow-down"></i></a>
 		<audio id="audio21" onended="resetbutton('21')" src="https://globalstorybooks.net/media/audio/ar/0201/mp3/21.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton21" onclick="playpause('21')" title="再生/一時停止"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg" id="playbutton21" onclick="playpause('21')" title="再生／一時停止"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ア,日','日,英,ア')" class="btn btn-lg lang-primary" title="日本語とアラビア語を切り替える">日</button>
-		<button style="display:none" onclick="switchlang('ア,英','日,英,ア')" class="btn btn-lg lang-secondary" title="英語とアラビア語を切り替える">英</button>
+		<button onclick="switchlang('ア,日','日,ア')" class="btn btn-lg lang-primary" title="アラビア語と日本語を切り替える">日</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>作者：Lindiwe Matshikiza</h5>
-		<h5>絵：Meghan Judge</h5>
-		<h5>翻訳：Maaouia Haj Mabrouk</h5>
-		<h5>朗読：Mashael Muhanna</h5>
-		<h5>言語：<a href="/storybooks-japan/stories/ar">アラビア語</a></h5>
-		<h5><a href="/storybooks-japan/stories/ar/level3">レベル 3</a></h5>
-		<h5>出所：<a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=15028" target="_blank">Donkey Child</a>」</h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この作品は<a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">クリエイティブ・コモンズ　表示 4.0　ライセンス</a>の下に提供されています。</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">作者:</span> Lindiwe Matshikiza</h5>
+		<h5><span class="colophon-heading">絵:</span> Meghan Judge</h5>
+		<h5><span class="colophon-heading">翻訳:</span> Maaouia Haj Mabrouk</h5>
+		<h5><span class="colophon-heading">朗読:</span> Mashael Muhanna</h5>
+		<h5><span class="colophon-heading">言語:</span> <a href="/storybooks-japan/stories/ar">アラビア語</a></h5>
+		<h5><span class="colophon-heading">レベル:</span> <a href="/storybooks-japan/stories/ar/level3">レベル 3</a></h5>
+		<h5><span class="colophon-heading">出所:</span> <a href="https://africanstorybook.org/">アフリカの絵本</a>より「<a href="https://africanstorybook.org/reader.php?id=15028" target="_blank">Donkey Child</a>」</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank"><img alt="クリエイティブ・コモンズのライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この作品はクリエイティブ・コモンズ　<a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">クリエイティブ・コモンズ 表示 4.0 非移植</a>　ライセンスの下に提供されています。</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -721,10 +620,9 @@ Slowly, all around them, other families have started to settle.
 </div>
 <div>
 <h5>オプション</h5>
-	<a class="btn btn-lg" href="/storybooks-japan/stories/ar" class="button">物語のリストに戻る</a> <a class="btn btn-lg disabled" target="_blank" href="">ダウンロード（PDF）</a>
+	<a class="btn btn-lg" href="/storybooks-japan/stories/ar" class="button">物語のリストに戻る</a> <span class="tooltip tooltip-top" data-tooltip="この物語のダウンロードは現在利用できません。"><a class="btn btn-lg disabled">ダウンロード（PDF）</a></span>
 <br><br>
 </div>
-
 
 
     </div>
